@@ -2,7 +2,7 @@
 
 # About:
 
-Chat application for a LAN
+Realtime chat application for a LAN
 
 Uses Node.js and Socket.IO
 
@@ -13,7 +13,8 @@ This is an ongoing project that will have added functionality over time.
 ## Current TODO:
 
 <ul>
-  <li>Add login homepage for username (no password yet) so that individual usernames can be displayed to all users.</li>
-  <li>Update current users online for all user's to see, even on initial connect.</li>
-  <li>Broadcast a message to connected users when someone connects or disconnects.</li>
+  <li> Add CSS to login page </li>
+  <li> Update chat style </li>
+  <li> Add “{user} is typing” functionality </li>
+  <li> Add private messaging </li>
 </ul>
