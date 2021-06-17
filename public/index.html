@@ -2,12 +2,25 @@
 <html>
     <head>
         <title>Chat-App</title>
+        <style>
+            body {background-color: rgb(28, 101, 197);}
+            #logo-section {text-align: center; margin-bottom: 4em;}
+            #logo {color:white; font-family: fantasy; font-size: 4em; letter-spacing: 3px;}
+            #login-head {color: white; text-align: center;}
+            #form {text-align: center;}
+            h4 {color: white; text-align: center; font-family: 'Times New Roman', Times, serif; margin-bottom: 1em; letter-spacing: 2px;}
+
+        </style>
     </head>
     <body>
-        <h1>LOGIN</h1>
-        <form id="form" action="chat.html">
+        <section id='logo-section'><h1 id='logo'>CHATTY</h1></section>
+        <section id='login'>
+          <h2 id='login-head'>START CHATTING</h2>
+          <h4>Enter Username</h4>
+          <form id="form" action="chat.html">
           <input type="text" name = "username" id="input" autocomplete="off" required />
           <button type='submit'>Start Chat</button>
-        </form>
+          </form>
+        </section>
     </body>
 </html>
