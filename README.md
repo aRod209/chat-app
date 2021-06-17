@@ -13,7 +13,6 @@ This is an ongoing project that will have added functionality over time.
 ## Current TODO:
 
 <ul>
-  <li> Add CSS to login page </li>
   <li> Update chat style </li>
   <li> Add “{user} is typing” functionality </li>
   <li> Add private messaging </li>
